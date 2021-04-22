@@ -36,12 +36,12 @@
  //       p.innerHTML = navigator.onLine ? '<h1>Somson</h1>' : '<h1>kiran</h1>';
  //   }
 
-    // or, you can use ...
-//     function update_status () {
-//         var p = document.getElementById('status');
-//         p.className = navigator.onLine ? 'Online' : 'offline';
-//         p.innerHTML = navigator.onLine ? 'Online' : 'offline';
-//     }
+     or, you can use ...
+     function update_status () {
+         var p = document.getElementById('status');
+         p.className = navigator.onLine ? '<h1>Samson</h1>' : '<h1>kiran</h1>';                          
+         p.innerHTML = navigator.onLine ? '<h1>Samson</h1>' : '<h1>kiran</h1>';
+     }
 
     window.addEventListener('online',  update_status);
     window.addEventListener('offline',  update_status);
